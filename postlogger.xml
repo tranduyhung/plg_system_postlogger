@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade" version="4.0">
+    <name>PLG_SYSTEM_POSTLOGGER</name>
+    <author>Hung Tran</author>
+    <version>1.0.0</version>
+    <copyright>(C) 2025 Hung Tran</copyright>
+    <creationDate>2025-08-16</creationDate>
+    <author>Hung Tran</author>
+    <authorEmail>flatfiledeveloper@gmail.com</authorEmail>
+    <authorUrl>www.flatfiledeveloper.com</authorUrl>
+    <license>GNU General Public License version 2 or later</license>
+    <description>PLG_SYSTEM_POSTLOGGER_DESC</description>
+    <namespace path="src">HungTran\Plugin\System\PostLogger</namespace>
+    <files>
+        <folder>language</folder>
+        <folder plugin="postlogger">services</folder>
+        <folder>vendor</folder>
+    </files>
+</extension>
